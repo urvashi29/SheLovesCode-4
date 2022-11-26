@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Intro</title>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- internal css -->
+    <style>
+      /* element selector */
+      p {
+        color: red;
+      }
+
+      /* unique */
+      /* id selector */
+      #style-div {
+        border: 1px solid orange;
+      }
+
+      /* class selector */
+      .style-heading {
+        color: teal;
+      }
+
+      /* universal selector */
+      * {
+        font-size: 30px;
+      }
+
+      /* group selector */
+      h2,
+      #style-div {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- inline styling -->
+    <p style="color: #ffe15d">Hello</p>
+    <div id="style-div">She loves code</div>
+    <div class="style-heading">Hello World</div>
+    <h2 class="style-heading">Coding</h2>
+  </body>
+</html>

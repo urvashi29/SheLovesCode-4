@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* background */
+#style-background {
+  background-color: yellow;
+  border: 1px solid black;
+  height: 200px;
+
+  background-image: url("facebook.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+
+  /* shorthard properties */
+  background: yellow url("facebook.png") no-repeat right top fixed;
+}
+
+/* border */
+#style-border {
+  border-color: #799988;
+  border-style: dashed;
+  border-width: 2px;
+
+  /* shorthand */
+  border: 2px dashed #799988;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* margin */
+#style-margin {
+  border: 1px solid black;
+  width: 30%;
+  height: 100px;
+
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+
+  /* margin: auto; */
+
+  /* property shorthand */
+  /* top, right, bottom, left -> spacing is added */
+
+  margin: 10px;
+
+  /* clockwise */
+  /* top right bottom left */
+  margin: 10px 7px 2px 15px;
+
+  /* top/bottom left/right */
+  margin: 10px 20px;
+}
+
+/* padding */
+#padding-style {
+  background-color: aliceblue;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+
+  /* clockwise */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  /* shorthand */
+  padding: 15px;
+
+  /* top right bottom left */
+  padding: 10px 3px 15px 6px;
+
+  /* top/bottom left/right */
+  padding: 10px 20px;
+}
+
+/* text */
+#text {
+  background-color: yellow;
+  border: 1px solid black;
+  width: 40%;
+  height: 200px;
+
+  padding: 10px;
+  color: teal;
+  text-align: center;
+
+  text-decoration: overline;
+  text-decoration: line-through;
+
+  /* lowercase, capitalize */
+  text-transform: uppercase;
+
+  text-indent: 50px;
+
+  line-height: 2;
+
+  letter-spacing: 2px;
+
+  word-spacing: 5px;
+
+  font-size: 20px;
+  font-weight: 400px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Display  */
+
+.navigation-item {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: palevioletred;
+  margin: 10px;
+  font-size: 20px;
+}
